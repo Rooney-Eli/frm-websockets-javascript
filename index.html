@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSockets</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="container">
+
+    <div id="text-div">
+        <form id="form">
+            <input type="submit" value="Send" />
+            <input type="text" id="send-text" size="64" autofocus autocomplete="off"/>
+        </form>
+        <div id="log"></div>
+    </div>
+
+    <div id="image-div">
+
+        <div id="send-image-div">
+            <h1>Sent</h1>
+            <img id="sending-image" src="" alt="sent-image">
+        </div>
+
+        <div id="received-image-div">
+            <h1>Received</h1>
+            <img id="received-image" src="" alt="received-image">
+        </div>
+
+        <div id="pending-image-div">
+            <h1>Sending</h1>
+            <canvas id="image-canvas"></canvas>
+            <button id="red-btn">Red</button>
+            <button id="green-btn">Green</button>
+            <button id="blue-btn">Blue</button>
+            <button id="black-btn">Black</button>
+            <button id="white-btn">White</button>
+            <button id="noise-btn">Noise</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

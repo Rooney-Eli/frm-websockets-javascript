@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#send-image-div {
+    background-color: lightblue;
+}
+
+#received-image-div {
+    background-color: lightcoral;
+}
+
+#pending-image-div {
+    background-color: orange;
+}
+
